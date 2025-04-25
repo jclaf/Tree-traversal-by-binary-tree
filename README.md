@@ -4,6 +4,18 @@
 - **Il permet de stocker, retrouver, supprimer et lister des valeurs de manière efficace.**
 - **C’est une structure de données fondamentale en algorithmique, utilisée dans de nombreux domaines (bases de données, indexation, etc.).**
 
+---
+
+## Algorithme Utilisé
+
+### **Arbre Binaire de Recherche (BST)**
+
+- **Insertion, recherche, suppression** : Complexité moyenne O(log n) si l’arbre est équilibré, O(n) dans le pire des cas (arbre dégénéré).
+- **Parcours infixe** : Permet d’obtenir les valeurs triées.
+- **Suppression** : Gère tous les cas (feuille, un enfant, deux enfants).
+
+---
+
 ## Description du Code
 
 ### 1. **Classe `TreeNode`**
@@ -144,10 +156,4 @@ if __name__=="__main__":
 
 ---
 
-## Algorithme Utilisé
 
-### **Arbre Binaire de Recherche (BST)**
-
-- **Insertion, recherche, suppression** : Complexité moyenne O(log n) si l’arbre est équilibré, O(n) dans le pire des cas (arbre dégénéré).
-- **Parcours infixe** : Permet d’obtenir les valeurs triées.
-- **Suppression** : Gère tous les cas (feuille, un enfant, deux enfants).
