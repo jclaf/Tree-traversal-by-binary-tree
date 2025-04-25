@@ -1,4 +1,4 @@
-# Tree traversal by binary tree
+# Arbre binaire de recherche
 
 - **Ce code implémente un arbre binaire de recherche (BST) avec insertion, recherche, suppression et parcours infixe.**
 - **Il permet de stocker, retrouver, supprimer et lister des valeurs de manière efficace.**
